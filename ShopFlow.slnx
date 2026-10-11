@@ -1,0 +1,24 @@
+<Solution>
+  <Folder Name="/Solution Items/">
+    <File Path=".editorconfig" />
+    <File Path="Directory.Build.props" />
+    <File Path="Directory.Packages.props" />
+  </Folder>
+  <Folder Name="/src/" />
+  <Folder Name="/src/BuildingBlocks/">
+    <Project Path="src/BuildingBlocks/ShopFlow.SharedKernel/ShopFlow.SharedKernel.csproj" Id="9c6c7344-b402-4252-860f-194cae87aa7b" />
+  </Folder>
+  <Folder Name="/src/Host/">
+    <Project Path="src/Host/ShopFlow.Api/ShopFlow.Api.csproj" Id="832321f4-c9ec-4058-8d4d-a4360ca80c49" />
+  </Folder>
+  <Folder Name="/src/Modules/" />
+  <Folder Name="/src/Modules/Catalog/">
+    <Project Path="src/Modules/Catalog/ShopFlow.Catalog.Application/ShopFlow.Catalog.Application.csproj" Id="0a91d1ce-22f7-4905-995c-eb999d2d5660" />
+    <Project Path="src/Modules/Catalog/ShopFlow.Catalog.Domain/ShopFlow.Catalog.Domain.csproj" Id="e4d85307-150b-4c82-b370-795c980682be" />
+    <Project Path="src/Modules/Catalog/ShopFlow.Catalog.Infrastructure/ShopFlow.Catalog.Infrastructure.csproj" Id="aa530f4d-5a1f-429f-909a-0104f7a44b94" />
+    <Project Path="src/Modules/Catalog/ShopFlow.Catalog.Presentation/ShopFlow.Catalog.Presentation.csproj" Id="a1330b17-ae14-4874-b2b4-1fd65c90ae8f" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/ShopFlow.Catalog.UnitTests/ShopFlow.Catalog.UnitTests.csproj" Id="d56117cc-b4d4-45ec-9a8c-8e1f69cd4109" />
+  </Folder>
+</Solution>
