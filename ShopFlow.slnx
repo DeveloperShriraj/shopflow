@@ -5,6 +5,10 @@
     <File Path="Directory.Packages.props" />
   </Folder>
   <Folder Name="/src/" />
+  <Folder Name="/src/Aspire/">
+    <Project Path="ShopFlow.AppHost/ShopFlow.AppHost.csproj" Id="0b845f1a-58f6-4590-8f79-555072b42cad" />
+    <Project Path="ShopFlow.ServiceDefaults/ShopFlow.ServiceDefaults.csproj" />
+  </Folder>
   <Folder Name="/src/BuildingBlocks/">
     <Project Path="src/BuildingBlocks/ShopFlow.SharedKernel/ShopFlow.SharedKernel.csproj" Id="9c6c7344-b402-4252-860f-194cae87aa7b" />
   </Folder>
