@@ -1,0 +1,1 @@
+headings: Title / Status / Context / Decision / Consequences
